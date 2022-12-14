@@ -1,9 +1,9 @@
 @use 'sass:math';
 
 @mixin theme {
-	--color-primary-h: 6.9;
+	--color-primary-h: 83;
 	--color-primary-s: 100%;
-	--color-primary-l: 67.6%;
+	--color-primary-l: 74%;
 	--color-primary: hsl(var(--color-primary-h), var(--color-primary-s), var(--color-primary-l));
 
 	--color-primary-tint-1-l: 88%;
@@ -230,9 +230,9 @@
 		var(--color-text-lighter-l)
 	);
 
-	--color-text-xlight-h: 0;
-	--color-text-xlight-s: 0%;
-	--color-text-xlight-l: 100%;
+	--color-text-xlight-h: 231;
+	--color-text-xlight-s: 14%;
+	--color-text-xlight-l: 18%;
 	--color-text-xlight: hsl(
 		var(--color-text-xlight-h),
 		var(--color-text-xlight-s),

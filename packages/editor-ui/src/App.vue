@@ -12,9 +12,9 @@
 			<div id="header" :class="$style.header">
 				<router-view name="header"></router-view>
 			</div>
-			<div id="sidebar" :class="$style.sidebar">
+			<!-- <div id="sidebar" :class="$style.sidebar">
 				<router-view name="sidebar"></router-view>
-			</div>
+			</div> -->
 			<div id="content" :class="$style.content">
 				<keep-alive include="NodeView" :max="1">
 					<router-view />
